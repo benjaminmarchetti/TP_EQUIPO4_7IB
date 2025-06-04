@@ -20,7 +20,7 @@ Registro de nuevo usuario
 
 - alta.php
 Muestra un formulario para registrar a un nuevo usuario y pide los siguientes datos:
-Nombre, Apellido, Email, Usuario y Contraseña.
+Nombre, Apellido, Email, Usuario y Contraseña. Si todos los campos contienen al menos un caracter y la contraseña es igual a la confirmación de la contraseña, se envía el formulario.
 Al enviar el formulario:
 Se conecta a la base de datos y se guarda el nuevo usuario en la tabla “registronuevo”, con la contraseña encriptada usando password_hash().
 
